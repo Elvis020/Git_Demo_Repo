@@ -1,0 +1,20 @@
+[Git Handy Commands]
+- git show
+- git ls-files: Show the files that are being tracked.
+- git commit : Help you comment multi-lines.
+
+[Steps to follow in discarding recent changes]
+- git reset HEAD <filename>
+- git checkout -- <filename>
+
+
+
+[Steps to follow in using git alias(replacing longer commands with shorter custom ones)]
+- git config --global alias.<new command> "<command you want to replace>"
+- git config list : to show list of configs
+- git <new command>
+
+
+
+[Steps to follow in order to rename a file]
+- git mv <current filename> <new filename>
